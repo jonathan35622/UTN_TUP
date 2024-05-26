@@ -1,0 +1,4 @@
+#pruebo ignorar carpetas que lleven nombre teoria
+**/teoria
+**/JAVA
+**/desafios
