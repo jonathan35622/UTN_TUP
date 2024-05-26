@@ -1,0 +1,9 @@
+Algoritmo Principal
+	Definir i Como Entero;
+	
+	para i <- 1 Hasta 10 Con Paso 1 hacer 
+		Escribir "Hola , este es el paso: " , i;
+		
+	FinPara
+	
+FinAlgoritmo
