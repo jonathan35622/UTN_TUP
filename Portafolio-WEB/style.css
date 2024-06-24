@@ -1,0 +1,11 @@
+.navigation{/*estilos que aplican si el elemento en html integra la clase*/
+    display: flex;/*los elementos se ordenan en filas*/
+    gap: 3rem;/*separamos texto de los elementos de las filas-  Sobre mi, etc*/
+    list-style: none;/*sacamos los puntos de las etiquetas li*/
+    justify-content: flex-end;/*los elementos del nav se posicionan hacia la derecha*/
+}
+
+a{
+ text-decoration: none;/*sacamos el subrayado del elemento a*/
+ color: black;/*indicamos que color de fuente sea negro*/
+}
