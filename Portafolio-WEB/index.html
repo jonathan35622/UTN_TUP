@@ -3,23 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Agrego etiquetas meta, para Seo y autor-->
+    <meta name="description" content="Proyecto creado por Jonathan Suarez">
+    <meta name="author" content="Jonathan Suarez">
     <title>Proyecto web</title>
-    <link rel="stylesheet" href="./style.css"><!--vinculamos archivo css-->
+    <link rel="stylesheet" href="Css/style.css"><!--vinculamos archivo css-->
 </head>
 <body>
     <header><!--cabecera a nuestro documento web- info relevante 
         para motores de búsqueda-->
-        <h1>Suarez Jonathan- Técnico en programación</h1> <!--utilizados para títulos generalmente-->
+        <h1> Desarrollo de Software</h1> <!--utilizados para títulos generalmente-->
         <img src="" alt=""> <!--si quiero agregar img , alt agrega descripción-->
         <nav><!--contiene partes esenciales para navegar en la web-->
             <ul class="navigation"><!--ul indica que agregamos una lista desordenada-->
                 <li><!--declara un elemento dentro de la lista-->
                     <a href="#sobremi">Sobre mi</a><!--enlace a otras paginas-->
                 </li>
+                <li><a href="experiencia">experiencia</a></li>
+                <li><a href="#estudios"></a>Estudios</li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto"></a>Contacto</li>     
+               
             </ul>
 
         </nav>
     </header>
+    <!--agregamos etiquetas para respetar el estándar de la creación web-->
+    <main>
+        <section class="sobreMi">
+            <article class="containerSobreMi">
+                <h2><!--los h1 no se pueden repetir, usamos h2 por tal motivo-->
+                    Bienvenidos mi nombre es Jonathan,  actualmente me desempeño como desarrollador backend ofreciendo 
+                    servicios a una empresa que trabaja con bancos. 
+                    También me encuentro cursando estudios en la Universidad Tecnologica Nacional - sede San Rafael referidos a programación. 
+                </h2>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
