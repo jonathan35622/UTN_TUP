@@ -8,11 +8,14 @@
     <meta name="author" content="Jonathan Suarez">
     <title>Proyecto web</title>
     <link rel="stylesheet" href="Css/style.css"><!--vinculamos archivo css-->
+    <link rel="stylesheet" href="Css/sobremi.css">
+    <link rel="stylesheet" href="Css/experiencia.css">
+    <link rel="stylesheet" href="Css/estudios.css">
 </head>
 <body>
     <header><!--cabecera a nuestro documento web- info relevante 
         para motores de búsqueda-->
-        <h1> Desarrollo de Software</h1> <!--utilizados para títulos generalmente-->
+        <h1 class="titulo"> Desarrollo de Software</h1> <!--utilizados para títulos generalmente-->
         <img src="" alt=""> <!--si quiero agregar img , alt agrega descripción-->
         <nav><!--contiene partes esenciales para navegar en la web-->
             <ul class="navigation"><!--ul indica que agregamos una lista desordenada-->
@@ -20,16 +23,16 @@
                     <a href="#sobremi">Sobre mi</a><!--enlace a otras paginas-->
                 </li>
                 <li><a href="experiencia">experiencia</a></li>
-                <li><a href="#estudios"></a>Estudios</li>
+                <li><a href="#estudios">Estudios</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto"></a>Contacto</li>     
+                <li><a href="#contacto">Contacto</a></li>     
                
             </ul>
 
         </nav>
     </header>
     <!--agregamos etiquetas para respetar el estándar de la creación web-->
-    <main>
+    <main class="mainContainer">
         <section class="sobreMi">
             <article class="containerSobreMi">
                 <img class="imgPerfil"   src="Assets/IMG2.png" alt="fotografía de Jonathan Suarez" width="200" height="200">
@@ -56,6 +59,7 @@
             <article class="containerEstudios">
                 <h2>Mis estudios</h2>
                 <p>Descripción de los estudios...</p>
+                <div class="containerEstudiosSection"></div>
             </article>
         </section>
     </main>
