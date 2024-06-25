@@ -1,0 +1,44 @@
+.sobreMi {
+    display: flex;
+    justify-content: center;/*centramos el elemento*/
+}
+
+.containerSobreMi{
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+    font-size: large;
+    color: black;
+    gap: 5rem;/*separa la img del texto*/
+    align-items: center;
+}
+
+.imgPerfil{
+    border-radius: 50%;
+}
+
+/*Celular pantallas pequeñas, hasta 767px*/
+@media (max-width: 767px){
+    .containerSobreMi{
+        width: 100%;
+        padding: 1;
+        margin-top: 1rem;/*margen en sentido altura*/
+        line-height: 2.5rem;/*espacios entre párrafos*/
+        font-size: small;/*tamaño de la fuente*/
+        flex-direction: column;/*coloca la foto personal en columna*/
+    }
+}
+
+/* Tableta pantallas medianas, entre 768 y 1023 px*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .containerSobreMi{
+        width: 75%;
+    }
+}
+
+/* Escritorio pantallas anchas, 1024px y superiores*/
+@media (min-width: 1024px){
+    
+}
