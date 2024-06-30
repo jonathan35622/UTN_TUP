@@ -1,16 +1,16 @@
 /*variables globales*/
 :root{
-    --body-bg-color: #353535;
-    --text-color:white;
-    --colorh1-color: ;
+    --body-bg-color: #ecf0f1;
+    --colorh1-color:#2c3e50 ;
+    --color-secundary: #1abc9c;
 }
 
 /*aplico variable creada en root*/
 body{
     display: flex;
     flex-direction: column; /*para que trate c/elemento como una columna*/
-    background: var(--body-bg-color);
-    color: var(--text-color);
+    background-color: var(--body-bg-color); /* Gris claro */
+    color: var(--colorh1-color);
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -40,7 +40,7 @@ h1, h2 {
     text-align: center;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    background: #A0E7E5;
+    background: var(--color-secundary);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
     
 }

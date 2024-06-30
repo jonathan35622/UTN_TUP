@@ -2,7 +2,7 @@
     width: 80%;
     margin: 0 auto;
     padding: 1rem;
-    background: #dda15e;
+    background: #ecf0f1;
 }
 
 /*Esta es el contenedor general que engloba a los proyectos*/
@@ -34,11 +34,13 @@
 .proyecto h3{
     margin-top: 10px;
     font-size: 1.2rem;
+    color: #ecf0f1;
 }
 
 /*descripción del proyecto*/
 .proyecto p{
     margin: 10px 0;
+    color: #ecf0f1;
 }
 
 /*Botones enlaces ancor*/
