@@ -1,8 +1,8 @@
 /*variables globales*/
 :root{
-    --body-bg-color: rgb(43,43,70);
+    --body-bg-color: #353535;
     --text-color:white;
-    --colorh1-color:rgb(225,219,350);
+    --colorh1-color: ;
 }
 
 /*aplico variable creada en root*/
